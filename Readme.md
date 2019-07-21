@@ -2,6 +2,8 @@
 
 I used the classic Titanic dataset to predict whether or not a given passenger would survive.
 I achieved 83.69% on a CV of f1_macro using SVM Classification. 
+
+```
 The confusion matrix gave me an F1 weighted average of:
 SVM
               precision    recall  f1-score   support
@@ -14,5 +16,6 @@ SVM
 weighted avg       0.87      0.87      0.87       345
 
 ('CV score: ', 0.8369020202473793)
+```
 
 If you are interested in more about this dataset and the Kaggle competition, check out https://www.kaggle.com/c/titanic 
